@@ -1,0 +1,81 @@
+
+h1 {
+   color:#333333;
+   font-style: bold;
+}
+
+h2{ color:#333333;
+   font-style: bold;
+}
+form.login_form {
+    font-family:monospace;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 450px;
+    background-color: #ffffff;
+    border: 1px solid #1b8780;
+    border-radius: 5px;
+    padding:10px
+}
+
+.my-radio-btn{
+border-color:#33d6cb;
+color:#33d6cb;}
+
+.my-radio-btn:hover{
+    color: #fff;
+    background-color: #30d5c8;
+    border-color: #b4f0ec;
+}
+
+.btn-check:active+.my-radio-btn,
+ .btn-check:checked+.my-radio-btn,
+  .my-radio-btn.active,
+   .my-radio-btn.dropdown-toggle.show,
+    .my-radio-btn:active{
+    color: #ffffff;
+    background-color: #33d6cb;
+    border-color: #b4f0ec;
+    box-shadow: 0 0 5px 5px #b1f0eb;}
+
+.form-check-input:checked{
+    background-color:#33d6cb;
+    border-color:#33d6cb;
+    box-shadow: 0 0 5px 5px #b1f0eb;
+}
+
+.form-check-input:focus {
+box-shadow: 0 0 2px 3px #b1f0eb;
+}
+
+.my-btn{
+background-color: #33d6cb;
+color: #000000;
+border-color: #1b8780;
+}
+
+.my-btn:hover{
+background-color:#1b8780;
+color:#ffffff;
+border-color:#0a3330;}
+
+.form-select:focus {
+    border-color: #b1f0eb;
+    outline: 0;
+    box-shadow:0 0 2px 3px #b1f0eb;
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #b1f0eb;
+    outline: 0;
+    box-shadow: 0 0 2px 3px #b1f0eb;
+}
+
+.flash{
+border:1px solid #1b8780;
+background-color:#b1f0eb;
+ padding:10px;
+ margin-top:5pt;
+ border-radius:5px}
